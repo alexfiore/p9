@@ -4,7 +4,6 @@ $(document).ready(function() {
     $('#awesomeness_holder').text(awe_some)
   }); 
 
-
   $('.skill_teller').on('click', function() {
     var route = window.location.pathname.split('/');
     var skill = route.pop();
@@ -16,5 +15,4 @@ $(document).ready(function() {
     $('#meal_holder').text(meal);
   });
 
-  // What other events do you need to bind to make the other pages work?
 });
